@@ -1,0 +1,24 @@
+{
+  "name": "siciliamia-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "undici": "^5.0.0"
+  }
+}
